@@ -35,7 +35,7 @@ import { exists, findSystemPython, isWindows, venvDir } from "./utils";
 
 	await execa(
 		venvPythonPath,
-		["-m", "pip", "install", "-U", "transparent-background"], // 1.2.12
+		["-m", "pip", "install", "-U", "https://github.com/adnan-hackontech/transparent-background/archive/main.zip"], // 1.2.12
 		{
 			stdout: "inherit",
 			stderr: "inherit",
